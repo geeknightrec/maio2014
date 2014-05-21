@@ -7,27 +7,19 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
-      // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      name: "Geek Night Recife",
+      description: " ",
+      date: "27 Maio",
+      venue: "ThoughtWorks",
+      address: "Av. Governador Agamenon Magalhães, 4779",
+      city: "Recife",
+      state: "PE"
     },
 
     // The Call To Action button at the header,
-    // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
-    },
-
-    // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
+        text: "Eu vou!",
+        link: "https://www.facebook.com/events/309842059168931/"
     },
 
     // Site info
@@ -45,126 +37,52 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      'sponsors',
-      'partners'
+    //  'sponsors',
+    //  'partners'
       // 'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Sobre",
+      location: "Local",
+      speakers: "Palestrantes",
+      schedule: "Agenda",
+      //sponsors: "Sponsors",
+      //partners: "Partners",
+      //contact: "Contact"
     },
 
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
-      },
-      {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
-        link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
-        },
+        name: "Eraldo Guerra",
+        photo: "themes/yellow-swan/img/eraldo.jpg",
+        bio: "CEO and Fundador da LifeUp Brasil",
         presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
+          title: "CanGame e outras soluções da LifeUp",
+          description: "O Can Game é um software, desenvolvido pela Life Up, que promove por meio de brincadeiras novas experiências educacionais e de tratamento do autismo. Sendo uma ferramenta inovadora e facilitadora para os médicos que tratam do autismo, pois além de facilitar o processo atual, cria motivação da criança em realizar a atividade. O software foi desenvolvido pela LifeUp, uma Fábrica de Software focada em empreendedorismo de alto impacto, oferecendo serviços de desenvolvimento e manutenção de sistemas, consultoria e softwares exclusivos desde junho de 2013,",
+          time: "19h30"
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Break",
+        time: "20h10"
+      },
+      {
+        name: "Yelken Gonzales",
+        photo: "themes/yellow-swan/img/yelken.jpeg",
+        bio: "Pós graduando em Segurança da informação; Graduado em Sistemas de informação pela Faculdade Santa Maria; Tecnólogo em Analise e desenvolvimento de sistemas pela UNIBRATEC; Certificações OCJA, OCJP e ITIL V3 Foundation; Analista de Sistemas na Home Center Ferreira Costa; Voluntário da ONU trabalhando atualmente com desenvolvimento de software em alguns projetos sociais;",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "https://twitter.com/yelkezin",
+          text: "@yelken"
         },
         presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          title: "VRaptor:  Desenvolvendo aplicações em JAVA de forma rápida e fácil",
+          description: "A palestra tem por objetivo mostrar como desenvolver aplicações para WEB com JAVA de forma rápida e fácil utilizando o framework VRaptor.",
+          time: "20h20"
         }
-      },
-      {
-        name: "Lunch",
-        time: "12h00"
-      },
-      {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
-        link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
-        },
-        presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
-        }
-      },
-      {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
-        presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
-        }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
-        }
-      },
-      {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
-      }
+      }     
     ],
 
     // List of Sponsors
@@ -192,7 +110,7 @@ module.exports = {
 
     // Site Path
     getUrl: function() {
-    	return this.site.url;
+      return this.site.url;
     }
   }
 };
