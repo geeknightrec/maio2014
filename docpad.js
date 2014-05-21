@@ -19,7 +19,7 @@ module.exports = {
     // The Call To Action button at the header,
     callToAction: {
         text: "Eu vou!",
-        link: "https://www.facebook.com/events/309842059168931/"
+        link: "https://docs.google.com/a/thoughtworks.com/forms/d/17uERT0iK3kLzzSSEDVPnXHniI3-9Lc7qrvRSQOjsWiM/viewform"
     },
 
     // Site info
