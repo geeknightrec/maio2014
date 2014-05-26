@@ -38,7 +38,7 @@ module.exports = {
       'speakers',
       'schedule',
     //  'sponsors',
-    //  'partners'
+      'partners'
       // 'contact'
     ],
 
@@ -48,8 +48,8 @@ module.exports = {
       location: "Local",
       speakers: "Palestrantes",
       schedule: "Agenda",
+      partners: "Parceiros",
       //sponsors: "Sponsors",
-      partners: "Partners"
       //contact: "Contact"
     },
 
