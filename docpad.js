@@ -49,7 +49,7 @@ module.exports = {
       speakers: "Palestrantes",
       schedule: "Agenda",
       //sponsors: "Sponsors",
-      //partners: "Partners",
+      partners: "Partners"
       //contact: "Contact"
     },
 
@@ -97,9 +97,9 @@ module.exports = {
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "ThoughWorks Recife",
+        logo: "themes/yellow-swan/img/tw-logo.png",
+        url: "http://www.thoughtworks.com/pt/"
       }
     ],
 
